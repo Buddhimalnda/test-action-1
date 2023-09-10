@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/demo88.jar demo88.jar
+ADD target/git-action.jar git-action.jar
 ENTRYPOINT ["java","-jar","/git-action.jar"]
