@@ -38,7 +38,7 @@ jobs:
         image: buddhimalinda/git-action
         tags: latest
         registry: docker.io
-        dockerfile: Dockerfile
+        dockerfile: DockerFile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
